@@ -1,6 +1,6 @@
 #Started out with instructions from https://rpubs.com/mramos/ganttchart
 
-setwd("/Users/jeh369/Dropbox/R_Projects/Hill_Lab_Gantt_Chart/")
+setwd("/your/favourite/directory/")
 
 #Download and install plotrix package
 install.packages("plotrix")
