@@ -147,4 +147,5 @@ gantt.chart(gantt.info, taskcolors=colfunc(6),xlim=timeframe, main="We are the H
             vgridpos=vgridpos,vgridlab=vgridlab,hgrid=FALSE,half.height=0.45,cylindrical=FALSE,border.col="black",
             label.cex=0.8,priority.label="Type",priority.extremes=c("PI","Undergrad"),time.axis=1)
             
-            
+#add a legend
+legend("bottomleft",c("PI","Technician","Postdoc/Research Associate","MSc","PhD","Undergrad"),fill = colfunc(6),inset = .1)            
